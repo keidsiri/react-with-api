@@ -37,7 +37,7 @@ class Headlines extends React.Component {
     if (error) {
       return <React.Fragment>Error: {error.message}</React.Fragment>;
     } else if (!isLoaded) {
-      return <React.Fragment>Loading...</React.Fragment>;
+      return <React.Fragment>Loading... Please wait... Go grab snacks while you're waiting</React.Fragment>;
     } else {
       return (
         <React.Fragment>
